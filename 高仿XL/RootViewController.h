@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController //
 
 // 主视图控制器
 @property (nonatomic, strong)UIViewController *mainViewController;
