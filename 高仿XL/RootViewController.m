@@ -16,7 +16,7 @@
 #import "AddViewController.h"
 
 #import "GCHTabBarController.h" // tabbar
-#import "GCHTabBarButton.h" //
+#import "GCHTabBarButton.h"
 
 
 @interface RootViewController ()
@@ -32,6 +32,7 @@
 
 @implementation RootViewController
 
+// 单利
 + (instancetype)shareManager
 {
     static RootViewController *_shared = nil;
